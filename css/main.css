@@ -1,0 +1,396 @@
+/*****BASE STYLES*****/
+
+body {
+    font-family: 'Alegreya', serif;
+}
+
+
+  /***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.full-width-contact{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ebebeb;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.half-width-contact {
+  background-color: #ebebeb;
+  width: 600px;
+  float: left;
+  padding: 20px 0;
+}
+
+.quarter-box {
+  width: 210px;
+  padding: 6px 2px 0px 2px;
+  float: left;
+  text-align: center;
+  border: 4px double #981c1f;
+  background-color: #ebebeb;
+}
+
+/*****HEADER Section*****/
+
+header {
+    background: #ffffff;
+    height: 240px;
+}
+
+header h1 {
+    padding: 0px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 32px;
+    color: #981c1f;
+}
+
+header h3 {
+  font-family: 'Alegreya', serif;
+  font-size: 32px;
+  color: #e37f6f;
+  text-align: center;
+}
+
+header img {
+  padding: 20px 0 0 0;
+}
+
+nav {
+  float: right;
+  padding: 75px 40px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 22px;
+    color: #981c1f;
+    padding-left: 80px;
+}
+
+header nav ul li a:active {
+  color: #e37f6f;
+}
+
+header nav ul li a:hover {
+    color: #e37f6f;
+}
+
+
+/*****SKILLS Section - Main Page*****/
+
+#skills {
+  padding: 30px 0 0 0;
+}
+
+#skills p {
+  font-size: 28px;
+  line-height: 33px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+
+#skills a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#skills a:hover {
+  color: #981c1f;
+}
+
+#shape-1 {
+  width: 360px;
+  height: 215px;
+  float: left;
+  background: url('../img/shape-1.png');
+  background-repeat: no-repeat;
+}
+
+#shape-1:hover {
+  background: url('../img/shape-1-invert.png');
+  background-repeat: no-repeat;
+}
+
+#shape-1 p {
+  padding: 45px 0px 0px 150px;
+}
+
+#shape-2 {
+  width: 240px;
+  height: 215px;
+  float: left;
+  background: url('../img/shape-2.png');
+  background-repeat: no-repeat;
+}
+
+#shape-2:hover {
+  background: url('../img/shape-2-invert.png');
+  background-repeat: no-repeat;
+}
+
+#shape-2 p {
+  padding: 65px 0px 0px 0px;
+}
+
+#shape-3 {
+  width: 240px;
+  height: 215px;
+  float: left;
+  background: url('../img/shape-3.png');
+  background-repeat: no-repeat;
+}
+
+#shape-3:hover {
+  background: url('../img/shape-3-invert.png');
+  background-repeat: no-repeat;
+}
+
+#shape-3 p {
+  padding: 45px 0px 0px 0px;
+}
+
+#shape-4 {
+  width: 360px;
+  height: 215px;
+  float: left;
+  background: url('../img/shape-4.png');
+  background-repeat: no-repeat;
+}
+
+#shape-4:hover {
+  background: url('../img/shape-4-invert.png');
+  background-repeat: no-repeat;
+}
+
+#shape-4 p {
+  padding: 60px 155px 0px 0px;
+}
+
+/***** WORK PAGE Sections*****/
+
+/*****WORDPRESS Section - Work Page*****/
+
+.bullet {
+  width: 80px;
+  float: left;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#wordpress {
+  clear: both;
+  margin: 0px 0px 200px 60px;
+}
+
+#wordpress h2 {
+  padding: 0px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 28px;
+  color: #981c1f;
+}
+
+/*****RUBY Section - Work Page*****/
+
+#ruby {
+  clear: both;
+  margin: 50px 0px 0px 60px;
+}
+
+#ruby h2 {
+  padding: 0px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 28px;
+  color: #981c1f;
+}
+
+/*****JAVASCRIPT Section - Work Page*****/
+
+#javascript {
+  clear: both;
+  margin: 50px 0px 0px 60px;
+}
+
+#javascript h2 {
+  padding: 0px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 28px;
+  color: #981c1f;
+}
+
+/*****CONTACT Section*****/
+
+#contact {
+  background-color: #ffffff;
+  clear: both;
+}
+
+#contact-img {
+  border: 12px solid #ffffff;
+  margin: 20.5px;
+}
+
+#contact .full-width {
+    padding: 20px 0;
+}
+
+#contact ul {
+    padding: 20px 0px 0px 115px;
+    list-style: none;
+    float: right;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 28px;
+}
+
+#contact-page ul {
+    text-align: center;
+    list-style: none;
+}
+
+#contact-page ul li {
+     display: inline-block;
+}
+#contact-page ul img {
+    padding-right: 28px;
+}
+
+/*****ABOUT PAGE Sections*****/
+
+/*****RESUME HEAD Section*****/
+
+#outer-shell {
+  width: 1060px;
+  height: 860px;
+  margin: 0 50px 0 50px;
+  padding: 0px;
+  border-left: 20px solid #981c1f;
+  border-right: 20px solid #981c1f;
+}
+
+#resume-head {
+  width: 1060px;
+  height: 200px;
+}
+
+#resume-head-left {
+  width: 325px;
+  padding: 40px 0px 0px 200px;
+  float: left;
+}
+
+#resume-head-right {
+  margin: 0;
+  padding: 40px 0 0 0;
+  float: left;
+}
+
+#resume-head-right img {
+  border-left: 20px solid #981c1f;
+  padding-left: 10px;
+}
+
+#resume-head-right p{
+  font-family: 'Alegreya', 'serif';
+  font-size: 18px;
+  padding-left: 30px;
+}
+
+#resume-body {
+  border-top: 4px solid #981c1f;
+}
+
+#resume-body h2 {
+  margin: 5px 5px 0px 5px;
+  font-family: 'Alegreya', 'serif';
+  color: #981c1f;
+  float: left;
+}
+
+#resume-body ul {
+  clear: both;
+  margin-left: 20px;
+}
+
+#resume-body ul li {
+  list-style-type: square;
+  font-family: 'Alegreya', serif;
+  font-size: 18px;
+  color: #3c3c3c;
+}
+
+#resume-body .icon {
+  margin: 2px 5px;
+  float: left;
+}
+
+#resume-body-left {
+  width: 530px;
+  float: left;
+  border-right: 2px solid #981c1f;
+}
+
+#education {
+  width: 460px;
+  height: 200px;
+  margin: 10px 35px;
+  border-bottom: 2px solid #981c1f;
+}
+
+#achievements {
+  width: 460px;
+  height: 200px;
+  margin: 10px 35px;
+  border-bottom: 2px solid #981c1f;
+}
+
+#workplace-skills {
+  width: 460px;
+  margin: 10px 35px;
+  border-bottom: 2px solid #981c1f;
+}
+
+#resume-body-right {
+  float: left;
+}
+
+#experience {
+  width: 458px;
+  margin: 10px 34px;
+  border-bottom: 2px solid #981c1f;
+}
+
+#technical-skills {
+  width: 458px;
+  margin: 10px 34px;
+  border-bottom: 2px solid #981c1f;
+}
+
+#narrative {
+  width: 458px;
+  margin: 10px 34px;
+}
+
+#narrative {
+  font-family: 'Alegreya', 'serif';
+  font-size: 18px;
+  padding-top: 10px;
+}
